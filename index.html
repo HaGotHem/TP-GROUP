@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'Accueil</title>
+    <link rel="stylesheet" href="./assets/css/home.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">Mon Site</div>
+            <ul class="nav-menu">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="accueil" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Bienvenue sur notre site</h1>
+                <p class="hero-subtitle">Découvrez nos services exceptionnels</p>
+                <button class="cta-button" id="ctaBtn">Commencer</button>
+            </div>
+            <div class="hero-image">
+                <div class="floating-shape"></div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <h2 class="section-title">Nos Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🚀</div>
+                    <h3>Service 1</h3>
+                    <p>Description du service exceptionnel que nous offrons.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💡</div>
+                    <h3>Service 2</h3>
+                    <p>Une autre description de service innovant et moderne.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⭐</div>
+                    <h3>Service 3</h3>
+                    <p>Un troisième service de qualité supérieure.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="apropos" class="about">
+            <div class="about-content">
+                <h2 class="section-title">À propos de nous</h2>
+                <p>Nous sommes une entreprise passionnée par l'excellence et l'innovation. Notre mission est de fournir des solutions de qualité à nos clients.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="section-title">Contactez-nous</h2>
+            <form class="contact-form" id="contactForm">
+                <input type="text" placeholder="Votre nom" required>
+                <input type="email" placeholder="Votre email" required>
+                <textarea placeholder="Votre message" rows="5" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Mon Site. Tous droits réservés.</p>
+    </footer>
+
+    <script src="./assets/js/home.js"></script>
+</body>
+</html>
